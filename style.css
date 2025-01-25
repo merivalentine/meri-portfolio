@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #ffb6c1; /* pastel pink */
+}
+
+a {
+    color: #ff69b4; /* bright pink accents */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 2rem;
+    border-bottom: 2px solid #ffb6c1;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+/* About Section */
+.about {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fdf5f8; /* light pastel pink */
+    border-top: 2px dashed #ffb6c1;
+    border-bottom: 2px dashed #ffb6c1;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    font-size: 0.9rem;
+    border-top: 2px solid #ffb6c1;
+}
